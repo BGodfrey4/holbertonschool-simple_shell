@@ -1,0 +1,47 @@
+Simple Shell Man Page
+
+  .SH NAME
+
+  .B Simple_shell -- hsh
+  - Is just a command line interpreter for linux
+
+  .SH COPYRIGHT
+      Public Domain, has no copyright protection
+
+      .SH SYNOPSIS
+      This shell mimics /bin/sh in it's funcationaly. It can be ran in both interacitve and noninteractive modes.
+
+
+      .SH DESCRIPTION
+
+      hsh is a command language interpreter that is able to execute commands given to it from the standard input.
+
+
+      .SH BUILTINS
+
+      These are commands that are built in and are supported:
+
+      .IT
+      .B env
+      - will print the environment
+
+      .B exit
+      - will exit the program
+
+      .B cd
+      - changes directories
+
+      .B clear
+      - clears the screen
+
+
+      .SS Example
+      .RS
+      ./hsh
+      echo holberton;
+
+      holberton
+
+      Author;
+
+      Bryan Godfrey
