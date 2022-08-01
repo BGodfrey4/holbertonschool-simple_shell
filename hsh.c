@@ -1,3 +1,4 @@
+#include "shell.h"
 /**
 * main - the simple shell
 * @argc: is the number of arguments
