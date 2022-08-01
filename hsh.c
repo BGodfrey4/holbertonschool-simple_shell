@@ -15,3 +15,4 @@ int main(int argc, char **argv)
         prompt(argv[0]);
         return (0);
 }
+
