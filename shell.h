@@ -12,12 +12,7 @@
 #include <sys/stat.h>
 #include <string.h>
 
-/* Path Structure */
-/**
- * struct path - path node struct
- * @dir: string containing directory
- * @next: pointer to next node.
- */
+int main(int argc, char **argv)
 
 
 
