@@ -1,6 +1,15 @@
 #ifndef SHELL_H
 #define SHELL_H
 
+typedef struct path
+{
+	char *dir;
+	struct path *next;
+} 	path_t;
+
+extern char **environ;
+path_t *main_path;
+path_t *env;
 
 /* Libraries */
 #include <unistd.h>
